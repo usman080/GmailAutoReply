@@ -1,9 +1,9 @@
 const {google} = require("googleapis")
 
-const CLIENT_ID = "258494983684-2ostj33anj801922nh4itn9rh3u9h5p7.apps.googleusercontent.com";
-const CLIENT_SECRET = "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";
+const CLIENT_ID = "Your Client Id";
+const CLIENT_SECRET = "Your Client Secret";
 const REDIRECT_URI = "https://developers.google.com/oauthplayground";
-const REFRESH_TOKEN ="1//045vF7C_6zv44CgYIARAAGAQSNwF-L9IrflCeG5bbhD7iNwUDFvdFlQoytCgkCaKwABn8etw8l-_qjufQSW9T-Xn_MCFGsHTVRgQ";
+const REFRESH_TOKEN ="Your Refresh Code";
 
 const oauthuser = new google.auth.OAuth2(
     CLIENT_ID,
