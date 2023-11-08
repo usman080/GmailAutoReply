@@ -153,3 +153,11 @@ function executeInRandomInterval() {
 }
 
 executeInRandomInterval();
+/*
+Where I can Improve My Code:
+1.Security: As I am using direct tokens and keys for authentication which can reduce the security of user. and also might expposing user's privacy.
+2.User Experience: As my application quiet unfamilar to the non technical person to use it. So there can be optimization so that the user experience might be easier and smoother.\
+3.Execution error: It may be possible in some user's devices the code might get runtime errors due to their configuration issues. also this is reduced by creating the good user interface and hiding our backend processes.
+4.Flexibility: as this point also comes in user experience. as we can optimize this code by giving the option to user for different people different reply template
+ As right the one template is sending to all users. so there can be improvement.   
+ */
